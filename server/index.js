@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Serve static files from the React frontend app
 app.use(express.static(path.join(__dirname, '/../client/build')));
 
-// Routes
+// API Routes
 app.use("/api", apiRouter);
 
 // Anything that doesn't match the above, send back index.html
