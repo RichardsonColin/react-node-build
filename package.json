@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/RyukyuColin/react_exp-starter#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "pg-promise": "^9.0.0"
   },
   "devDependencies": {
